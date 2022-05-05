@@ -7,7 +7,7 @@ from utils import logException
 
 
 @Client.on_message(
-    filters.command(["help", "help@vcplayerbot"]) & ~filters.edited & ~filters.bot
+    filters.command(["help", "help@shinyhuntsmusicbot"]) & ~filters.edited & ~filters.bot
 )
 @save_user_chat_in_db
 async def info(client, message, current_client):
